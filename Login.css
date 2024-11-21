@@ -1,0 +1,39 @@
+.follower {
+    position: absolute;
+    width: 15px; 
+    height: 15px;
+    background-color: #ad3eee; 
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-25%, -25%); 
+    z-index: 4;
+  }
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 470px;
+    height: 500px;
+    border-radius: 40px;
+    border: 1px solid #ad3eee; 
+    text-align: center;
+    line-height: 100px;
+}
+#inputss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    margin: 0;
+}
+#inputss input{
+    width: 280px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ad3eee;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0; /* Ensure no extra margin between inputs */
+    box-sizing: border-box;
+}
